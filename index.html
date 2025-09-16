@@ -287,7 +287,76 @@
    
 
 <!-- Skills Section -->
-<!-- Skills Section --> <section id="skills" class="skills"> <div class="container"> <div class="section-title"> <h2>My Skills</h2> </div> <!-- Programming & AI --> <div class="skills-category"> <h3 class="category-title">Programming & AI</h3> <div class="skills-content" style="display: flex; flex-wrap: wrap; gap: 15px;"> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fab fa-python"></i> <h3>Python</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fab fa-cuttlefish"></i> <h3>C++</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-robot"></i> <h3>PyTorch</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-lightbulb"></i> <h3>LLM & Fine-tuning</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-brain"></i> <h3>TensorFlow & Keras</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-robot"></i> <h3>Deep Learning</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-eye"></i> <h3>Computer-Vision and YOLO(Detection &Segmentation &Scene Analysis)</h3><div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-robot"></i> <h3> </h3> </div> </div> <h3></h3> </div> </div> </div> <!-- Deployment & DevOps --> <div class="skills-category"> <h3 class="category-title">Deployment & DevOps</h3> <div class="skills-content" style="display: flex; flex-wrap: wrap; gap: 15px;"> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-window-maximize"></i> <h3>Streamlit</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fas fa-server"></i> <h3>FastAPI</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fab fa-docker"></i> <h3>Docker</h3> </div> <div class="skill-box" style="flex: 0 0 auto;"> <i class="fab fa-github"></i> <h3>Git & GitHub</h3> </div> </div> </div> </div> </section>
+<!-- Skills Section -->
+<section id="skills" class="skills" style="padding:60px 20px; background:#f0f0f0;">
+  <div class="container">
+    <div class="section-title">
+      <h2 style="text-align:center; color:#4a8fe7; margin-bottom:40px;">My Skills</h2>
+    </div>
+
+    <div class="skills-circles" style="display:flex; justify-content:center; gap:100px; flex-wrap:wrap;">
+
+      <!-- Programming & AI Circle -->
+      <div class="skills-circle" style="position:relative; width:300px; height:300px; border-radius:50%; background:#fff; box-shadow:0 5px 15px rgba(0,0,0,0.1); display:flex; align-items:center; justify-content:center;">
+        <h3 style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; width:100px;">Programming & AI</h3>
+        
+        <!-- Skills -->
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; height:100%;">
+          <div style="position:absolute; top:10%; left:50%; transform:translateX(-50%); text-align:center;">
+            <i class="fab fa-python" style="font-size:24px; color:#306998;"></i>
+            <p>Python</p>
+          </div>
+          <div style="position:absolute; top:50%; left:90%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fab fa-cuttlefish" style="font-size:24px; color:#00599C;"></i>
+            <p>C++</p>
+          </div>
+          <div style="position:absolute; top:90%; left:50%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fas fa-robot" style="font-size:24px; color:#FF6F61;"></i>
+            <p>PyTorch</p>
+          </div>
+          <div style="position:absolute; top:50%; left:10%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fas fa-lightbulb" style="font-size:24px; color:#FFD700;"></i>
+            <p>LLM & Fine-tuning</p>
+          </div>
+          <div style="position:absolute; top:25%; left:75%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fas fa-brain" style="font-size:24px; color:#6A5ACD;"></i>
+            <p>TensorFlow & Keras</p>
+          </div>
+          <div style="position:absolute; top:75%; left:25%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fas fa-eye" style="font-size:24px; color:#00CED1;"></i>
+            <p>Computer Vision & YOLO</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deployment & DevOps Circle -->
+      <div class="skills-circle" style="position:relative; width:300px; height:300px; border-radius:50%; background:#fff; box-shadow:0 5px 15px rgba(0,0,0,0.1); display:flex; align-items:center; justify-content:center;">
+        <h3 style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; width:100px;">Deployment & DevOps</h3>
+        
+        <!-- Skills -->
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; height:100%;">
+          <div style="position:absolute; top:10%; left:50%; transform:translateX(-50%); text-align:center;">
+            <i class="fas fa-window-maximize" style="font-size:24px; color:#00BFFF;"></i>
+            <p>Streamlit</p>
+          </div>
+          <div style="position:absolute; top:50%; left:90%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fas fa-server" style="font-size:24px; color:#228B22;"></i>
+            <p>FastAPI</p>
+          </div>
+          <div style="position:absolute; top:90%; left:50%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fab fa-docker" style="font-size:24px; color:#0db7ed;"></i>
+            <p>Docker</p>
+          </div>
+          <div style="position:absolute; top:50%; left:10%; transform:translate(-50%, -50%); text-align:center;">
+            <i class="fab fa-github" style="font-size:24px; color:#333;"></i>
+            <p>Git & GitHub</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- Contact Section -->
 <section id="contact" class="contact">
@@ -355,6 +424,7 @@
 </script>
 </body>
 </html>
+
 
 
 
